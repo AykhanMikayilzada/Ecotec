@@ -8,14 +8,14 @@ const HomePageMainSide: React.FC = () => {
 
   useEffect(() => {
     AOS.init({
-      duration: 1100, 
-      once: true, 
+      duration: 1100,
+      once: true,
     });
   }, []);
 
   return (
     <>
-      <Box className="backInBlack" bg="black" w="100%" h="100%">
+      <Box className="backInBlack" as="main" bg="black" w="100%" h="100%">
         <Box
           className="section1"
           as="section"
@@ -42,26 +42,26 @@ const HomePageMainSide: React.FC = () => {
                 pt="150px"
                 pl="80px"
               >
-                  <Image
-                    src="./HomePage/twitter.svg"
-                    _hover={{ cursor: "pointer" }}
-                    w="17px"
-                  />
-                  <Image
-                    src="./HomePage/facebook.svg"
-                    _hover={{ cursor: "pointer" }}
-                    w="17px"
-                  />
-                  <Image
-                    src="./HomePage/linkedin.svg"
-                    _hover={{ cursor: "pointer" }}
-                    w="17px"
-                  />
-                  <Image
-                    src="./HomePage/instagram.svg"
-                    _hover={{ cursor: "pointer" }}
-                    w="17px"
-                  />
+                <Image
+                  src="./HomePage/twitter.svg"
+                  _hover={{ cursor: "pointer" }}
+                  w="17px"
+                />
+                <Image
+                  src="./HomePage/facebook.svg"
+                  _hover={{ cursor: "pointer" }}
+                  w="17px"
+                />
+                <Image
+                  src="./HomePage/linkedin.svg"
+                  _hover={{ cursor: "pointer" }}
+                  w="17px"
+                />
+                <Image
+                  src="./HomePage/instagram.svg"
+                  _hover={{ cursor: "pointer" }}
+                  w="17px"
+                />
               </Box>
               <a
                 href={`tel:${phoneNumber}`}
@@ -105,12 +105,12 @@ const HomePageMainSide: React.FC = () => {
               <Button
                 colorScheme="#F5900D"
                 bg="#F5900D"
-                _hover={{ bg: "#F7AC19", transition: "0.2s ease-in-out" }}
                 w="214px"
                 h="64px"
                 mt="500px"
                 textColor="white"
                 data-aos="fade-right"
+                _hover={{ bg: "#F7AC19", transition: "0.1s" }}
               >
                 Discover More
               </Button>
@@ -289,7 +289,13 @@ const HomePageMainSide: React.FC = () => {
           m="auto"
           w="100%"
         >
-          <Box className="leftSide" pos="relative" maxW="650px" maxH="650px" data-aos="fade-right">
+          <Box
+            className="leftSide"
+            pos="relative"
+            maxW="650px"
+            maxH="650px"
+            data-aos="fade-right"
+          >
             <Image
               src="./HomePage/picture1.svg"
               maxW="620px"
@@ -405,13 +411,62 @@ const HomePageMainSide: React.FC = () => {
             mb="40px"
             data-aos="fade"
           >
-            <Text as="span" color="#F5900D" fontSize="50px" fontWeight="bold" data-aos="fade">
+            <Text
+              as="span"
+              color="#F5900D"
+              fontSize="50px"
+              fontWeight="bold"
+              data-aos="fade"
+            >
               Services
             </Text>{" "}
             We’re Providing To Our Customers
           </Text>
 
-          <Box className="cards" display="flex" gap="40px">
+          <Box className="cards" display="flex" gap="40px" mb="250px">
+            <Box
+              className="card"
+              display="flex"
+              flexDir="column"
+              alignItems="center"
+              boxSizing="border-box"
+              bg="#101010"
+              w="290px"
+              borderRadius="10px"
+              pb="40px"
+              data-aos="fade"
+            >
+              <Image src="./HomePage/development.svg" mt="48px" />
+              <Text
+                fontSize="18px"
+                textColor="white"
+                fontWeight="bold"
+                maxW="150px"
+                textAlign="center"
+                mt="24px"
+              >
+                Networking Services{" "}
+              </Text>
+              <Text
+                maxW="190px"
+                textAlign="center"
+                fontSize="14px"
+                textColor="#5D5D5D"
+                mt="24px"
+              >
+                Diagnostics, Technical Support, Equipment Repair, Data Recovery,
+                Modernization and Improvement, Complex Project Solutions
+                (Configuration, Installation, Commissioning)
+              </Text>
+              <Box
+                className="border"
+                w="190px"
+                h="1px"
+                bg="#5D5D5D"
+                opacity="35%"
+                mt="24px"
+              ></Box>
+            </Box>
             <Box
               className="card"
               display="flex"
@@ -498,6 +553,7 @@ const HomePageMainSide: React.FC = () => {
                 mt="24px"
               ></Box>
             </Box>
+
             <Box
               className="card"
               display="flex"
@@ -540,49 +596,7 @@ const HomePageMainSide: React.FC = () => {
                 bg="#5D5D5D"
                 opacity="35%"
                 mt="24px"
-              ></Box>
-            </Box>
-            <Box
-              className="card"
-              display="flex"
-              flexDir="column"
-              alignItems="center"
-              boxSizing="border-box"
-              bg="#101010"
-              w="290px"
-              borderRadius="10px"
-              pb="40px"
-              data-aos="fade"
-            >
-              <Image src="./HomePage/development.svg" mt="48px" />
-              <Text
-                fontSize="18px"
-                textColor="white"
-                fontWeight="bold"
-                maxW="150px"
-                textAlign="center"
-                mt="24px"
-              >
-                Networking Services{" "}
-              </Text>
-              <Text
-                maxW="190px"
-                textAlign="center"
-                fontSize="14px"
-                textColor="#5D5D5D"
-                mt="24px"
-              >
-                Diagnostics, Technical Support, Equipment Repair, Data Recovery,
-                Modernization and Improvement, Complex Project Solutions
-                (Configuration, Installation, Commissioning)
-              </Text>
-              <Box
-                className="border"
-                w="190px"
-                h="1px"
-                bg="#5D5D5D"
-                opacity="35%"
-                mt="24px"
+                mb="0px"
               ></Box>
             </Box>
           </Box>

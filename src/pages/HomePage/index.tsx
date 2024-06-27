@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HomePageMainSide from "@/components/HomePageMainSide";
 import React from "react";
@@ -7,6 +8,7 @@ function HomePage() {
     <>
       <Header />
       <HomePageMainSide />
+      <Footer />
     </>
   );
 }

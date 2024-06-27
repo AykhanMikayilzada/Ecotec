@@ -9,7 +9,7 @@ function MyApp() {
   return (
     <ChakraProvider>
       <Head>
-        <title>Ecotec CS My App</title> 
+        <title>ECOTEC CS</title> 
       </Head>
       <HomePage />
     </ChakraProvider>
