@@ -87,6 +87,7 @@ const About = () => {
             maxW="650px"
             maxH="650px"
             data-aos="fade-right"
+            mt="-30px"
           >
             <Image
               src="./About/orangeDots.svg"
@@ -153,12 +154,12 @@ const About = () => {
         </Box>
 
         <Box className="section3" as="section" display="flex" flexDir="column" maxW="1440px" w="100%" m="auto">
-          <Box display="flex" justifyContent="center" alignItems="center" mt="200px" gap="24px">
+          <Box display="flex" justifyContent="center" alignItems="center" mt="200px" gap="24px" data-aos="fade">
             <Box className="border" bg="#5D5D5D" maxW="544px" w="100%" h="1px" opacity="30%"></Box>
             <Text textAlign="center" textColor="#5D5D5D" fontSize="13px">20+ Brands Trust Us</Text>
             <Box className="border" bg="#5D5D5D" maxW="544px" w="100%" h="1px" opacity="30%"></Box>
           </Box>
-          <Box className="brands" display="flex" gap="120px" justifyContent="center" alignItems="center" mt="50px" pb="100px">
+          <Box className="brands" display="flex" gap="120px" justifyContent="center" alignItems="center" mt="50px" pb="100px" data-aos="fade-up">
             <Box className="brand">
               <Image src="/About/biselle.png" />
             </Box>
