@@ -4,6 +4,7 @@ import '@/styles/globals.css';
 import HomePage from './HomePage';
 import Head from 'next/head';
 
+
 function MyApp() {
   return (
     <ChakraProvider>
