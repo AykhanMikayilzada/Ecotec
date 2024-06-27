@@ -45,6 +45,7 @@ const HomePageMainSide: React.FC = () => {
                   <Image
                     src="./HomePage/twitter.svg"
                     _hover={{ cursor: "pointer" }}
+                    w="17px"
                   />
                   <Image
                     src="./HomePage/facebook.svg"
@@ -54,10 +55,12 @@ const HomePageMainSide: React.FC = () => {
                   <Image
                     src="./HomePage/linkedin.svg"
                     _hover={{ cursor: "pointer" }}
+                    w="17px"
                   />
                   <Image
                     src="./HomePage/instagram.svg"
                     _hover={{ cursor: "pointer" }}
+                    w="17px"
                   />
               </Box>
               <a
