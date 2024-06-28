@@ -312,7 +312,7 @@ const Services = () => {
                 </Box>
                 <Box display="flex" flexDir="column">
                   <Text fontSize="20px" textColor="white" fontWeight="bold">We think differently</Text>
-                  <Text fontSize="15" textColor="#5D5D5D" maxW="350px">We think differently, constantly pushing the boundaries of innovation and creativity. Our unique approach allows us to turn challenges into opportunities, delivering unparalleled solutions that set us apart. At the heart of our success is a commitment to thinking outside the box and redefining what's possible.</Text>
+                  <Text fontSize="15" textColor="#5D5D5D" maxW="350px">We think differently, constantly pushing the boundaries of innovation and creativity. Our unique approach allows us to turn challenges into opportunities, delivering unparalleled solutions that set us apart. At the heart of our success is a commitment to thinking outside the box and redefining what&rsquo;s possible.</Text>
                 </Box>
               </Box>
               <Box className="option" display="flex" gap="32px">
