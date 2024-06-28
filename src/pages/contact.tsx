@@ -1,4 +1,4 @@
-import { Box, Image, Input, Text, Textarea } from "@chakra-ui/react";
+import { Box, Input, Text, Textarea } from "@chakra-ui/react";
 import Header from "../components/Header";
 import Footer from "@/components/Footer";
 
@@ -71,6 +71,7 @@ const Contact = () => {
           m="auto"
           mt="-80px"
           mb="150px"
+          gap="50px"
         >
           <Box
             className="leftSide"
@@ -81,6 +82,7 @@ const Contact = () => {
             flexDir="column"
             alignItems="center"
             pt="50px"
+            borderRadius="30px"
           >
             <Text fontSize="44px" textColor="white">
               Get in touch with us
@@ -123,7 +125,12 @@ const Contact = () => {
               placeholder="racheljoe@gmail.com"
             />
           </Box>
-          <Box className="rightName" w="50%">
+          <Box
+            className="rightName"
+            w="50%"
+            borderRadius="30px" 
+            overflow="hidden" 
+          >
             <Box
               as="iframe"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2026.0368163117316!2d49.860075191355314!3d40.41037165233385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d283e6aef4b%3A0x1adf790e7d3891f3!2sRashmed%20MMC!5e0!3m2!1saz!2saz!4v1719558626878!5m2!1saz!2saz"
@@ -131,9 +138,9 @@ const Contact = () => {
               h="100%"
               style={{
                 border: 0,
-                backgroundColor: "rgba(30, 30, 30, 0.8)", // Arkaplan rengi (koyu gri tonu)
+                backgroundColor: "rgba(30, 30, 30, 0.8)", 
                 filter:
-                  "invert(90%) sepia(10%) saturate(500%) hue-rotate(180deg)", // Görüntü filtresi
+                  "invert(90%) sepia(10%) saturate(500%) hue-rotate(180deg)", 
               }}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
