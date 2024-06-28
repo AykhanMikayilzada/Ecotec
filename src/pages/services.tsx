@@ -120,7 +120,7 @@ const Services = () => {
               pb="40px"
               data-aos="fade"
             >
-              <Image src="./HomePage/development.svg" mt="48px" />
+              <Image src="./Services/networking.png" mt="48px" w="90px" />
               <Text
                 fontSize="18px"
                 textColor="white"
@@ -151,6 +151,7 @@ const Services = () => {
                 mt="24px"
               ></Box>
             </Box>
+
             <Box
               className="card"
               display="flex"
@@ -163,49 +164,7 @@ const Services = () => {
               pb="40px"
               data-aos="fade"
             >
-              <Image src="./HomePage/development.svg" mt="48px" />
-              <Text
-                fontSize="18px"
-                textColor="white"
-                fontWeight="bold"
-                maxW="150px"
-                textAlign="center"
-                mt="24px"
-              >
-                Website Development
-              </Text>
-              <Text
-                maxW="190px"
-                textAlign="center"
-                fontSize="14px"
-                textColor="#5D5D5D"
-                mt="24px"
-              >
-                Custom website, Seo Services, SMM services, E-mail for your
-                business, Hosting Services,
-              </Text>
-              <Box
-                className="border"
-                w="190px"
-                h="1px"
-                bg="#5D5D5D"
-                opacity="35%"
-                mt="24px"
-              ></Box>
-            </Box>
-            <Box
-              className="card"
-              display="flex"
-              flexDir="column"
-              alignItems="center"
-              boxSizing="border-box"
-              bg="#101010"
-              w="290px"
-              borderRadius="10px"
-              pb="40px"
-              data-aos="fade"
-            >
-              <Image src="./HomePage/development.svg" mt="48px" />
+              <Image src="./Services/safety.png" mt="25px" w="130px" />
               <Text
                 fontSize="18px"
                 textColor="white"
@@ -251,6 +210,49 @@ const Services = () => {
               data-aos="fade"
             >
               <Image src="./HomePage/development.svg" mt="48px" />
+              <Text
+                fontSize="18px"
+                textColor="white"
+                fontWeight="bold"
+                maxW="150px"
+                textAlign="center"
+                mt="24px"
+              >
+                Website Development
+              </Text>
+              <Text
+                maxW="190px"
+                textAlign="center"
+                fontSize="14px"
+                textColor="#5D5D5D"
+                mt="24px"
+              >
+                Custom website, Seo Services, SMM services, E-mail for your
+                business, Hosting Services,
+              </Text>
+              <Box
+                className="border"
+                w="190px"
+                h="1px"
+                bg="#5D5D5D"
+                opacity="35%"
+                mt="24px"
+              ></Box>
+            </Box>
+
+            <Box
+              className="card"
+              display="flex"
+              flexDir="column"
+              alignItems="center"
+              boxSizing="border-box"
+              bg="#101010"
+              w="290px"
+              borderRadius="10px"
+              pb="40px"
+              data-aos="fade"
+            >
+              <Image src="./Services/product.png" mt="35px" w="110px" />
               <Text
                 fontSize="18px"
                 textColor="white"
