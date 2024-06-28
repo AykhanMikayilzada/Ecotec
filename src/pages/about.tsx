@@ -51,9 +51,8 @@ const About = () => {
                 bg="white"
                 borderRadius="4px"
                 mb="4px"
-                data-aos="fade-down"
               ></Box>
-              <Text color="#F5900D" data-aos="fade-down">
+              <Text color="#F5900D">
                 About
               </Text>
             </Box>
